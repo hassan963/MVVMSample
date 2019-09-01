@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable List<Note> notes) {
                 //update list
-                adapter.setNoteList(notes);
+                adapter.submitList(notes);
             }
         });
 
